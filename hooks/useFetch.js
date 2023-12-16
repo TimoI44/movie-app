@@ -9,7 +9,7 @@ const useFetch = (query) => {
 
     const options = {
         method: 'GET',
-        url: `http://www.omdbapi.com/?apikey=127f3edf&`,
+        url: `http://www.omdbapi.com/?apikey=[yourapikeyhere]&`,// replace with your api key from http://www.omdbapi.com
         params: {...query},
     };
 
