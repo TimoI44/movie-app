@@ -53,8 +53,8 @@ const MovieDetails = () => {
                 <Text style={styles.plotText}>{data.Plot}</Text>
                 </View>
                 <View style={styles.ratingContainer}>
-                    <Rating name={"imbd"} rating={79} />
-                    <Rating name={"imbd"} rating={79} />
+                    <Rating name={"Meta-score"} rating={data.Metascore} />
+                    <Rating name={"imbd"} rating={data.imdbRating} />
                 </View>
             </ScrollView>
         </SafeAreaView>
